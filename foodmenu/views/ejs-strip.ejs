@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu Strips</title>
+    <link rel="stylesheet" href="/css/ejs-strip.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="menu">MENU</h1>
+        <div class="strip-contaner">
+            <% menu.forEach((fooditem)=>{ %>
+
+
+                <div class="strip">
+                 
+                    <div class="strip-title-box">
+                        <h2 class="strip-title-name"> <%= fooditem.FoodName %> </h2>
+                    </div>
+                    <div class="strip-detail">
+                        <div class="strip-detail-box">
+                            <h3 class="strip-detail-from"><%= fooditem.from %> </h3>
+                        </div>
+                        <div class="strip-detail-box">
+                            <h4 class="strip-detail-quantity"> <%= fooditem.quantity%></h4>
+                        </div>
+                        <div class="strip-detail-box">
+                            <h2 class="strip-detail-price"> <%= fooditem.price%></h2>
+                        </div>
+                    </div>
+                       <div class="strip-title-box">
+                        <h1 class="strip-title-id"> <%= fooditem.id %> </h1>
+                    </div>
+                </div>
+    
+             <!-- <img src="/img/${food-2.png}" alt=""> -->
+           <% }) %>
+       </div>
+    </div>
+</body>
+
+</html>

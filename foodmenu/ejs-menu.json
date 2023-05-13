@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "FoodName": "Paneer Masala",
+    "from": "Punjab",
+    "quantity": "250gm ",
+    "price": "Rs 300"
+  },
+  {
+    "id": 1,
+    "FoodName": "Gravy Gatta ",
+    "from": "Rajasthan",
+    "quantity": "200gm",
+    "price": "Rs 150"
+  },
+  {
+    "id": 2,
+    "FoodName": "Malai Pulao",
+    "from": "Kashmir",
+    "quantity": "300gm",
+    "price": "Rs 250"
+  },
+  {
+    "id": 3,
+    "FoodName": "Thali Full",
+    "from": "Dausa",
+    "quantity": "full",
+    "price": "Rs 350"
+  },
+  {
+    "id": 4,
+    "FoodName": "Masala Dosa",
+    "from": "Karnataka",
+    "quantity": "1pc",
+    "price": "Rs 270"
+  }
+]
